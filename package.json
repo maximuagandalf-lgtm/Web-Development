@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/maximuagandalf-lgtm/Web-Development/issues"
   },
-  "homepage": "https://github.com/maximuagandalf-lgtm/Web-Development#readme"
+  "homepage": "https://github.com/maximuagandalf-lgtm/Web-Development#readme",
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
 }
