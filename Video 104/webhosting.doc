@@ -1,0 +1,19 @@
+Web hosting —>
+
+1. We can select regions based on our preference, website will load faster to users accessing from that particular region. 
+2. Web hosting services provide us with another PC which hosts our website 24/7. 
+3. We can access the alotted PC(terminal) with the given Username and Password. 
+4.  Enter these in your own PC’s terminal to access the aloted PC —>  ssh username @alottedipaddress then enter password.
+5. We use FileZilla server for efficient file managements between both the PCs.
+6. make port:22 for file transfer in Filezilla GUI.
+7. “npm i dotenv” command is used to install env and make .env file which stores all of the crucial info like password etc. which will be hidden from public.
+8. To implement .env and create environment variables for our web app. We include “require ('dotenv'). config() and in next line console.log(process.env)” into our express server file(server.js).
+9. To host an Index.html into the hosting PC, install apache web server using “apt install apache2” into the hosting terminal. 
+10. This will give us “folder/var/www/html”, we simply have to move our index.html file into this folder using FileZilla for it to be hosted. 
+11. Domain name is used to replace IP address, domain name has a variable which points to our IP address hence making it easier for users to search our website.
+12. Another alternative to Apache is NGINX.
+
+-Types of hosting —>
+1. Shared hosting - Multiple users access a single big powerful computer with their respective username and passwd.
+2. Dedicated Hosting - Each user is aloted their own unique PC.
+3. Managed Hosting - along with hosting, IT support which inculdes server maintainence and alerts are also provided.
